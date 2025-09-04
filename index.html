@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owtewe</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <meta name="description" content="nawnaw smp omtewe rilis jir">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="min-h-screen overflow-x-hidden">
+    <!-- Sakura Petals Animation -->
+    <div id="sakura-container"></div>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-12 flex flex-col items-center justify-center min-h-screen">
+        <!-- Header -->
+        <header class="text-center mb-12" data-aos="fade-down">
+            <div class="fate-border rounded-full p-2 inline-block mb-6">
+                <img src="image/nawnawlogo.png" alt="Fate Grand Order" class="w-24 h-24 rounded-full object-cover">
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold text-pink-600 mb-2">NAWNAW SMP</h1>
+            <p class="text-xl text-pink-500">Coming Soon!</p>
+        </header>
+
+        <!-- Countdown Timer -->
+        <div class="countdown-box fate-border rounded-xl p-8 max-w-2xl w-full" data-aos="zoom-in">
+            <h2 class="text-2xl font-bold text-center text-pink-700 mb-6">Release Countdown</h2>
+            
+            <div class="grid grid-cols-4 gap-4 text-center">
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <div id="days" class="text-4xl font-bold text-pink-600">00</div>
+                    <div class="text-sm text-pink-500 mt-2">Days</div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <div id="hours" class="text-4xl font-bold text-pink-600">00</div>
+                    <div class="text-sm text-pink-500 mt-2">Hours</div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <div id="minutes" class="text-4xl font-bold text-pink-600">00</div>
+                    <div class="text-sm text-pink-500 mt-2">Minutes</div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <div id="seconds" class="text-4xl font-bold text-pink-600">00</div>
+                    <div class="text-sm text-pink-500 mt-2">Seconds</div>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center">
+                <p class="text-pink-700 mb-4">Server will launch on January 5, 2026</p>
+                <div class="w-full bg-pink-200 rounded-full h-4">
+                    <div id="progress-bar" class="bg-pink-600 h-4 rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Info -->
+        <div class="mt-12 text-center" data-aos="fade-up">
+            <h3 class="text-2xl font-bold text-pink-600 mb-4">Stay Updated!</h3>
+            <div class="flex justify-center space-x-4">
+                <a href="tiktok.com/@naoticaceha" class="bg-pink-500 hover:bg-pink-600 text-white p-3 rounded-full transition-all">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="https://www.instagram.com/for_evershya10?igsh=MXZhcG1iYmFwd25xZA==" class="bg-pink-500 hover:bg-pink-600 text-white p-3 rounded-full transition-all">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://discord.gg/2zbKwstkXX" class="bg-pink-500 hover:bg-pink-600 text-white p-3 rounded-full transition-all">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
